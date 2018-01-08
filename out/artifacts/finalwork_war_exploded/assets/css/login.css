@@ -1,0 +1,461 @@
+.sign {
+    margin: 0 auto;
+    width: 25em;
+    height: 33em;
+    text-align: center;
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.4em 3em gray;
+}
+@font-face {
+    font-family: pingfang;
+    src: url("../fonts/pingfang.ttf");
+}
+
+.logo {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.title {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.normal-title {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: #969696;
+}
+
+.active {
+    color: #ea6f5a;
+    border-bottom: 2px solid #ea6f5a;
+}
+
+.normal-title:hover {
+    text-decoration: none;
+    color: #969696;
+    border-bottom: 2px solid #ea6f5a;
+}
+
+body {
+    font-family: pingfang, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sign-bg {
+    background-image: url("../images/sandro-georgi-141829.jpg");
+    background-size: cover;
+}
+
+.user-input {
+    padding: 4px 12px 4px 30px;
+    width: 90%;
+    height: 45px;
+}
+
+.one {
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #c8c8c8;
+    border-bottom: none;
+}
+
+.two {
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #c8c8c8;
+}
+
+.two-register {
+    border: 1px solid #c8c8c8;
+}
+
+.three {
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #c8c8c8;
+    border-top: none;
+}
+
+.icon {
+    float: left;
+    position: relative;
+    transform: translate(29px,14px);
+}
+
+.input-prepend {
+    width: 80%;
+    margin: 0 auto;
+    transform: translate(-5px);
+}
+
+form {
+    text-align: center;
+}
+
+.remember-btn {
+    margin: 15px 0 0 55px;
+    float: left;
+    color: #969696;
+}
+
+.forget-btn {
+    margin: 15px 50px 0 0;
+    float: right;
+    color: #969696;
+}
+
+a {
+    color: #969696;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #969696;
+    text-decoration: none;
+}
+
+.sign-in-button {
+    clear: both;
+    margin-top: 50px;
+    width: 70%;
+    height: 40px;
+    background-color: #3194d0;
+    color: white;
+    border-radius: 25px 25px;
+    border-style: none;
+    font-size: 20px;
+    font-family: "PT Serif";
+}
+
+.register-btn {
+    background-color: #42c02e;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.index-bg {
+    background-image: url("../images/christian-perner-329575.jpg");
+    background-size: cover;
+}
+
+.index-container {
+    text-align: center;
+}
+
+.index-main {
+    width: 80%;
+    height: 20em;
+    margin: 100px auto 0 auto;
+    padding-left: 75px;
+}
+
+.index-block {
+    width: 25%;
+    height: 100%;
+    margin: 0 75px 0 0;
+    float: left;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.4em 3em gray;
+}
+
+.jumbotron {
+    border-radius: 1em 1em 0 0;
+}
+
+.row {
+    position: absolute;
+    transform: translate(0,70px);
+    margin-left: 20px;
+}
+
+.form-control {
+    border-color: #ea6f5a;
+}
+
+.input-group {
+    width: 165px;
+}
+
+.btn-default {
+    border-color: #ea6f5a;
+}
+
+.select-date {
+    width: 165px;
+    height: 34px;
+    border: 1px solid #ea6f5a;
+    border-radius: 4px;
+    position: absolute;
+    transform: translate(-80px,70px);
+    text-indent: 5px;
+}
+
+.index-icon1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translate(-225px,100px);
+}
+
+.index-icon2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translate(-67px,100px);
+}
+
+.search-button {
+    clear: both;
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 20%;
+    height: 40px;
+    background-color: #ea6f5a;
+    color: white;
+    border-radius: 25px 25px;
+    border-style: none;
+    font-size: 20px;
+    font-family: "PT Serif";
+}
+
+.search-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+}
+
+.search-input {
+    width: 100px;
+    float: left;
+    margin: 10px 20px 0 35px;
+    padding-left: 5px;
+}
+
+.search-icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 0 10px;
+}
+
+.search-time {
+    float: left;
+    width: 165px;
+    height: 34px;
+    border: 1px solid #ea6f5a;
+    border-radius: 4px;
+    margin: 10px 15px 0 30px;
+}
+
+#search-nav {
+    margin-bottom: 0;
+}
+
+.route {
+    margin: 20px;
+}
+
+.route-place {
+    float: left;
+    margin: 0;
+    color: #2577E3;
+}
+
+.img-arrow {
+    width: 35px;
+    height: 35px;
+}
+
+.route-info {
+    position: absolute;
+    transform: translate(10px, 10px);
+}
+
+.train-title {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: ghostwhite;
+}
+
+dd {
+    float: left;
+    margin: 15px 50px 0 22px;
+}
+
+.search-bottom {
+    width: 71%;
+    margin: 0 50px;
+}
+
+.train-active {
+    color: rgb(36, 119, 227);
+}
+
+.menu-btn {
+    border: none;
+    padding: 5px;
+}
+
+.r1 {
+    margin: 10px 20px;
+}
+
+.l1 {
+    margin: 10px 25px;
+}
+
+.w1 {
+    float: left;
+    width: 17%;
+}
+
+.w2 {
+    float: left;
+    width: 16%;
+}
+
+.r2 {
+    margin: 10px 0;
+}
+
+.w3 {
+    float: left;
+    width: 13.5%;
+}
+
+.from {
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0 2px;
+    color: #2577e3;;
+    margin-bottom: 10px;
+}
+
+.pass {
+    clear: both;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0 2px;
+    color: #0fa400;
+}
+
+.des {
+    clear: both;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0 2px;
+    color: #ff9913;
+}
+
+.r3-place {
+    float: left;
+    margin: 0 5px;
+}
+
+.r3 {
+    margin: 10px 0;
+}
+
+.w4 {
+    float: left;
+    width: 16%;
+}
+
+.r4 {
+    margin: 10px 0;
+}
+
+.w5 {
+    float: left;
+    width: 35%;
+}
+
+.seat {
+    float: left;
+    margin: 10px 0 5px 0;
+}
+
+.price {
+    float: left;
+    margin: 10px 0 5px 15px;
+    color: #FA6700;
+}
+
+.number {
+    float: left;
+    margin: 10px 0 5px 50px;
+}
+
+.buy {
+    float: left;
+    margin: 10px 0 5px 60px;
+}
+
+.buy-btn {
+    background-color: #ff9913;
+    color: white;
+    padding: 0 10px;
+    border: 1px solid #ff9913;
+    border-radius: 6px;
+}
+
+.list-body {
+    height: 150px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+.hr-split {
+    clear: both;
+    margin: 0;
+}
+
+.search-bg {
+    background-image: url("../images/scott-webb-220435.jpg");
+    background-size: cover;
+}
+
+.info {
+    text-align: center;
+    display: none;
+}
+
+.signaction {
+    text-align: center;
+}
+
+.transfer {
+    margin: 0 auto;
+    text-align: center;
+    color: #2577E3;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    width: 100px;
+    transform: translate(0,-10px);
+}
+
+.split {
+    background-color: white;
+}
+
+.ad-search {
+    display: block;
+}
+
+.advanced {
+    width: 200px;
+    transform: translate(655px,0);
+    margin: 5px;
+}
