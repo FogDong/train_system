@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="uplogin" class="control" method="loginjudge">
+            <result name="success">/index.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+
+        <action name="addlogin" class="control" method="addjude">
+            <result name="success">/index.jsp</result>
+            <result name="error">/register.jsp</result>
+        </action>
+
+        <action name="search" class="control" method="straighTrain">
+            <result name="list">/search.jsp</result>
+            <result name="error">/search.jsp</result>
+        </action>
+
+        <action name="shortest" class="control" method="shortest">
+            <result name="list">/search2.jsp</result>
+            <result name="error">/search2.jsp</result>
+        </action>
+        <action name="test" class="control" method="shortest">
+            <result name="list">/loginsuccess.jsp</result>
+            <result name="error">/loginsuccess.jsp</result>
+        </action>
+
+        <action name="cheapest" class="control" method="cheapest">
+            <result name="list">/search.jsp</result>
+            <result name="error">/search.jsp</result>
+        </action>
+
+        <action name="sort" class="control" method="sort">
+            <result name="list">/search.jsp</result>
+            <result name="error">/search.jsp</result>
+        </action>
+    </package>
+</struts>
